@@ -1,1 +1,30 @@
+body{
+    font-family: sans-serif;
+}
+.button1{
+    background-color: #ff6700;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    cursor: pointer;
+}
+.underline{
+    text-underline-position: below;
+}
+form{
+    background-color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 2px;
+    align-self: center;
+}
+.button2{
+    border-color: #ff6700;
+    border-radius: 3px;
+    color: #ff6700;
+    background-color: white;
+    margin-bottom: 30px;
+    cursor: pointer;
 
+}
