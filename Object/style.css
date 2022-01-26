@@ -1,5 +1,7 @@
 body{
     font-family: sans-serif;
+    color: grey;
+    
 }
 .button1{
     background-color: #ff6700;
@@ -9,22 +11,57 @@ body{
     border: none;
     cursor: pointer;
 }
+.container1{
+    margin: 30px;
+    border-radius: 5px;
+}
 .underline{
-    text-underline-position: below;
+    border-bottom: #ff6700, 1px;
+}
+form input{
+    width: 25%;
+    padding: 5px;
+
+}
+::placeholder{
+    margin: 10px;
 }
 form{
     background-color: aliceblue;
     margin: 0px;
     padding: 0px;
-    border-radius: 2px;
+    border-radius: 5px;
     align-self: center;
+    position: absolute;
 }
 .button2{
-    border-color: #ff6700;
-    border-radius: 3px;
-    color: #ff6700;
+    border: 2px solid orangered;
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 0px;
+    padding: 7px 20px;
+    border-radius: 5px;
+    display: block;
+    color: orangered;
     background-color: white;
-    margin-bottom: 30px;
+    cursor: pointer;
+
+}
+select{
+    display: inline-block;
+    width: 25%;
+    padding: 5px;
+}
+.button3{
+    border: 1px solid midnightblue;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-left: 0px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    display: block;
+    color: midnightblue;
+    background-color: white;
     cursor: pointer;
 
 }
